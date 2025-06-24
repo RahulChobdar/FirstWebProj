@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="./CSS/stylespg3.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function abc() {
+        window.alert("Thank You, We will Contact You Shortly!");
+        close();
+        open("./index.html");
+      }
+    </script>
+    <body>
+      <!-- START NAV -->
+
+      <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./work.html">Work</a>
+          </li>
+          <li>
+            <a href="#contact" background-color: rgba(180, 34, 34, 0.9)
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- END NAV -->
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name.."
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your email.."
+            required
+          />
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Your subject.."
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write something.."
+            style="height: 200px"
+            required
+          ></textarea>
+          <input type="submit" value="Submit" onclick="abc()" />
+        </form>
+      </div>
+    </body>
+  </head>
+  <footer>
+        <div style="color: black; text-align: center;">Copyright &copy;</div>
+        </footer>
+</html>
